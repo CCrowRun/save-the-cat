@@ -10,6 +10,43 @@
   </head>
 
   <body>
+    <div class="jumbotron container-fluid">
+      <div class="pull-left">
+        <h1>Save the Cat!</h1>
+        <h2>The fifteen beats every screenplay needs to resonate with audiences.</h2>
+      </div>
+
+      <div class="clear"></div>
+
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="nav-item"><%= link_to 'Home',root_path %></li>
+              <li class="nav-item"><%= link_to 'Add a Movie', new_movie_path %></li>
+            </ul>
+            <!--
+            <ul class="nav navbar-nav">
+              <li><a href="#One">One: Opening Image</a></li>
+              <li><a href="#Two">Two: Theme Stated</a></li>
+              <li><a href="#Three">Three: Set-up</a></li>
+              <li><a href="#Four">Four: Catalyst</a></li>
+              <li><a href="#Five">Five: Debate</a></li>
+              <li><a href="#Six">Six: Break Into Two</a></li>
+              <li><a href="#Seven">Seven: B-Story</a></li>
+              <li><a href="#Eight">Eight: Fun and Games</a></li>
+              <li><a href="#Nine">Nine: Midpoint</a></li>
+              <li><a href="#Ten">Ten: Bad Guys Close In</a></li>
+              <li><a href="#Eleven">Eleven: All is Lost</a></li>
+              <li><a href="#Twelve">Twelve: Dark Night of the Soul</a></li>
+              <li><a href="#Thirteen">Thirteen: Break Into Three</a></li>
+              <li><a href="#Fourteen">Fourteen: Finale</a></li>
+              <li><a href="#Fifteen">Fifteen: Final Image</a></li>
+            </ul> -->
+          </div>
+        </div>
+      </nav>
+    </div>
     <%= yield %>
   </body>
 </html>
